@@ -1,0 +1,49 @@
+.popps{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.bang{
+    border-bottom: 0ch;
+    margin-bottom: 0px;
+}
+
+.gradient-text{
+    background-image: linear-gradient(90deg, rgb(177, 156, 217), black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bordbot{
+    border-bottom: 10px;
+    color: gray;
+}
+
+.sizing{
+    width: 90%;
+    height: 600px;
+}
+
+.picheight{
+    height: 600px;
+}
+
+
+
+
+

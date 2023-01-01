@@ -1,0 +1,29 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+$enable-rounded: false;
+
+
+
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Custom Colours
+$custom-colors: (
+    "main-btn": rgb(12,180,233),
+    "link": rgb(0,9,235),
+    "nav-colour": rgb(177,156,217),
+    "op-dark": rgba(0, 0, 0, 0.073),
+);
+
+$theme-colors: map-merge($theme-colors , $custom-colors );
+
+$bs-bg-opacity: 0.7;
+
+
+$nav-link-color: black;
+$nav-link-hover-color: black;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
