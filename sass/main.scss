@@ -1,6 +1,6 @@
 @import "../node_modules/bootstrap/scss/functions";
 
-$enable-rounded: false;
+$enable-rounded: true;
 
 
 
@@ -14,6 +14,7 @@ $custom-colors: (
     "link": rgb(0,9,235),
     "nav-colour": rgb(177,156,217),
     "op-dark": rgba(0, 0, 0, 0.073),
+    "grey": rgb(110, 110, 110),
 );
 
 $theme-colors: map-merge($theme-colors , $custom-colors );
