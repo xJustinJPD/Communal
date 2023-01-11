@@ -7,6 +7,14 @@ $enable-rounded: true;
 
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/card";
+
+// Card Editing
+$card-cap-color: rgb(178, 178, 178); 
+
+// font
+$font-family-base: 
+
 
 // Custom Colours
 $custom-colors: (
