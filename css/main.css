@@ -4195,8 +4195,8 @@ textarea.form-control-lg {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: black;
-  --bs-nav-link-hover-color: black;
+  --bs-nav-link-color: rgb(0, 0, 0);
+  --bs-nav-link-hover-color: rgb(177, 156, 217);
   --bs-nav-link-disabled-color: var(--bs-secondary-color);
   display: flex;
   flex-wrap: wrap;
@@ -4232,7 +4232,7 @@ textarea.form-control-lg {
   --bs-nav-tabs-border-width: var(--bs-border-width);
   --bs-nav-tabs-border-color: var(--bs-border-color);
   --bs-nav-tabs-border-radius: var(--bs-border-radius);
-  --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color);
+  --bs-nav-tabs-link-hover-border-color: rgb(225, 213, 248);
   --bs-nav-tabs-link-active-color: var(--bs-emphasis-color);
   --bs-nav-tabs-link-active-bg: var(--bs-body-bg);
   --bs-nav-tabs-link-active-border-color: var(--bs-border-color) var(--bs-border-color) var(--bs-body-bg);
@@ -12630,4 +12630,8 @@ ul {
 .added {
   top: 90px;
   z-index: 1;
+}
+
+.hovtext:hover {
+  color: white;
 }/*# sourceMappingURL=main.css.map */

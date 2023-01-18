@@ -2,9 +2,12 @@
 
 $enable-rounded: true;
 
-$enable-grid-classes: enabled;
+$enable-grid-classes: true;
 
 
+$nav-link-color: rgb(0,0,0);
+$nav-link-hover-color: rgb(177, 156, 217);
+$nav-tabs-link-hover-border-color: rgb(225, 213, 248);
 
 
 @import "../node_modules/bootstrap/scss/variables";
@@ -27,12 +30,6 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors , $custom-colors );
 
 $bs-bg-opacity: 0.7;
-
-
-$nav-link-color: black;
-$nav-link-hover-color: black;
-
-
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -136,4 +133,8 @@ ul{
 .added{
     top:90px;
     z-index:1;
+}
+
+.hovtext:hover{
+    color: white;
 }
